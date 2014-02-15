@@ -1086,7 +1086,7 @@ End
 		    Dim strSQL As String
 		    strSQL = "SELECT * FROM taches WHERE lien_projet = '" + Me.RowTag(Me.ListIndex) + "'"
 		    
-		    Dim RCSelect As RecordSet 
+		    Dim RCSelect As RecordSet
 		    RCSelect = Session.db.SQLSelect(strSQL)
 		    
 		    If Session.db.Error Then

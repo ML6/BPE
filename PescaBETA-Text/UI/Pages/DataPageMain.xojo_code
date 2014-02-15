@@ -521,7 +521,7 @@ End
 		  MyList.ColumnWidths = "100%"
 		  
 		  Dim strSQL As String
-		  strSQL = "SELECT * FROM projets ORDER BY nom_projet" 
+		  strSQL = "SELECT * FROM projets ORDER BY nom_projet"
 		  
 		  Dim RC As RecordSet
 		  RC = Session.db.SQLSelect(strSQL)

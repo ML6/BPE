@@ -877,7 +877,7 @@ End
 #tag Events ModifierButton
 	#tag Event
 		Sub Action()
-		  //Activer boutons et champs 
+		  //Activer boutons et champs
 		  
 		  Self.TerminButton.Visible = True
 		  Self.EnregisrButton.Visible = True

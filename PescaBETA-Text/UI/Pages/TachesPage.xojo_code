@@ -362,7 +362,7 @@ End
 		    
 		    //S'il reste des tâches pour ce projet...
 		    If Self.SBCTaches.TasksListBox.RowCount >1 Then
-		       intIndex = 0
+		      intIndex = 0
 		      // Ajouter les valeur aux champs
 		      Dim strSQL2 As String
 		      strSQL = "SELECT * FROM taches WHERE id_tache = '" + Self.SBCTaches.TasksListBox.RowTag(IntIndex) + "'"
